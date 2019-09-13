@@ -1,0 +1,56 @@
+body {
+    background-color: #efeee7;
+}
+
+
+#Name {
+    background: teal;
+    color: white;
+    font-size: 30px;
+    width: auto;
+    float: left;
+    padding: 10px 20px 10px 20px;
+}
+}
+.top-right-nav {
+    
+
+}
+.background {
+
+}
+article {
+    
+}
+
+h1 {
+
+}
+
+borderline {
+
+}
+img {
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+section {
+    
+    
+    color: red;
+
+    font-size: 30px;
+}
+
+p { 
+    background-color: blue;
+}
+
+.top-right-nav {
+    float: right;
+  }
