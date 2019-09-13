@@ -27,7 +27,7 @@ body {
 
 .top-right-nav { 
     
-    
+    color: grey;
     font-size: 24px;
     float: right;
     position:absolute;
@@ -68,7 +68,10 @@ h1 {
     border-bottom-color: grey;
 
 }
-
+a {
+    color: white;
+    background: #4aaaa5;
+}
 .borderline {
     background: brown;
 
