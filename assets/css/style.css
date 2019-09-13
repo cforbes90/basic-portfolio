@@ -1,12 +1,13 @@
 body {
     background-color: #ffffff;
     width: 960px;
+    border-top-color: rgb(162, 158, 158);
 }
 
 .topbar {
     
     border-style: double; 
-    border-color: /*transparent;*/ rgb(255, 0, 200);
+    border-color: transparent; rgb(255, 0, 200);
     border-bottom-color: rgb(128, 128, 128);
 
 }
@@ -21,18 +22,19 @@ body {
     float: left;
     padding: 10px 20px 10px 20px;
     margin-bottom: 20px;
+    border: 1px solid rgb(162, 158, 158);
 }
 
 
 
 .top-right-nav { 
     
-    color: grey;
+    color: #808080;
     font-size: 24px;
     float: right;
     position:absolute;
     top: 10px;
-    right: 0px;
+    right: 100px;
     padding: 10px 20px 10px 20px;
     width: 700px;
     margin: 0;
@@ -54,9 +56,9 @@ body {
 article {
     padding: 20px;
     border-style: double; 
-    border-color: /*transparent;*/ blue;
-    border-bottom-color: grey;
-    
+    border-color: /*transparent;*/ /*blue;*/
+    border-bottom-color: rgb(162, 158, 158);
+    border-top-color: rgb(162, 158, 158);
 }
 
 h1 {
@@ -74,6 +76,13 @@ a {
 }
 .borderline {
     background: brown;
+
+}
+a {
+    color: gray;
+    background: white;
+    font-size: 16px;
+    
 
 }
 img {
