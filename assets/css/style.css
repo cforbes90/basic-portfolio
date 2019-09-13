@@ -48,6 +48,7 @@ body {
     border-style: double; 
     border-color: /*transparent;*/ rgb(0, 255, 76);
     /*border-bottom-color: grey;*/
+    overflow: auto;
 
 }
 article {
@@ -73,8 +74,9 @@ h1 {
 
 }
 img {
-    clear: both;
-    overflow: auto;
+    /*clear: both;
+    overflow: auto;*/
+    float: left;
     width: 200px;
     height: 200px;
 }
@@ -90,4 +92,9 @@ section {
 
 p { 
     background: blue;
+}
+
+footer {
+    clear: both;
+    overflow: auto;
 }
