@@ -4,11 +4,10 @@ body {
     border-top-color: rgb(162, 158, 158);
 }
 
-.topbar {
-    
-    border-style: double; 
-    border-color: transparent; rgb(255, 0, 200);
+.topbar { 
+    border-color: transparent; /*rgb(255, 0, 200);*/
     border-bottom-color: rgb(128, 128, 128);
+    width: 960px;
 
 }
 
@@ -18,10 +17,11 @@ body {
     position: relative;
     bottom: 0px;
     font-size: 30px;
-    width: 260px;
+    width: 250px;
     float: left;
     padding: 10px 20px 10px 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     border: 1px solid rgb(162, 158, 158);
 }
 
@@ -34,28 +34,33 @@ body {
     float: right;
     position:absolute;
     top: 10px;
-    right: 100px;
+    right: 400px;
     padding: 10px 20px 10px 20px;
     width: 700px;
     margin: 0;
-    text-align: center;
+    text-align: right;
+    border: 1px solid transparent;
+    border-right-color: gray;
+    padding-right: 5px;
     
    
 
 }
 .background {
     clear: both;
+    overflow: auto;
 
     padding: 40px;
-    border-style: double; 
-    border-color: /*transparent;*/ rgb(0, 255, 76);
-    /*border-bottom-color: grey;*/
-    overflow: auto;
+    border: 2px solid transparent;
+    border-top-color: grey;
+    
+   background-image: url(https://fg-a.com/wallpapers/white-marble-1-2018.jpg);
 
 }
 article {
-    padding: 20px;
-    border-style: double; 
+    padding: 0px;
+    margin-top: 0px;
+    border-style: solid; 
     border-color: /*transparent;*/ /*blue;*/
     border-bottom-color: rgb(162, 158, 158);
     border-top-color: rgb(162, 158, 158);
@@ -65,9 +70,12 @@ h1 {
     font-size: 32px;
     color: #4aaaa5;
     background: whitesmoke;
-    border-style: double; 
+    border: 2px solid;
     border-color: transparent; 
     border-bottom-color: grey;
+    padding: 30px 20px 30px 20px;
+    /*padding-bottom: 0px;*/
+    margin-top: 0px;
 
 }
 a {
@@ -81,7 +89,11 @@ a {
 a {
     color: gray;
     background: white;
-    font-size: 16px;
+    /*font-size: 16px;*/
+    border: 1px solid transparent;
+    border-right-color: gray;
+    padding-right: 5px;
+    
     
 
 }
@@ -89,24 +101,28 @@ img {
     /*clear: both;
     overflow: auto;*/
     float: left;
+    position; absolute;
+    top: 0;
     width: 200px;
     height: 200px;
 }
 
 
-section {
+section { 
+    background: white;
     
     
-    color: red;
-
-    font-size: 30px;
 }
 
-p { 
-    background: blue;
-}
+
 
 footer {
     clear: both;
     overflow: auto;
+    background-color: #4aaaa5;
+    color: #4aaaa5;
+}
+#belowfooter{ 
+    background: gray;
+    color: gray;
 }
